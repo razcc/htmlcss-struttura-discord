@@ -19,13 +19,13 @@ header{
 }
 
 /* dimensionamento quadrati */
-#logo,
-#login{
+.logo,
+.login{
     width: 200px;
     height: 150px;
     background-color: red;
 }
-#selection{
+.selection{
     width: 1000px;
     height: 150px;
     background-color: red;
@@ -45,9 +45,8 @@ header{
     
     background-color: grey;
 }
-.container-main{
+.container{
     width: 80%;
-    height: 200px;
     margin: auto;
     background-color: blue;
     display: flex;
@@ -73,4 +72,26 @@ header{
     flex-direction: column;
     width: 80%;
     margin: auto;
+}
+
+
+/* FOOTER */
+.container-footer{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    justify-content: space-between;
+    background-color: rgb(2, 104, 70);
+}
+.border{
+    border-top: 5px solid black;
+}
+
+#color{
+    background-color: aqua;
+}
+.link-utili{
+    height: 500px; 
+    width: 100%;
+    background-color: rgb(147, 93, 11);
 }
