@@ -3,6 +3,8 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* css header  */
 header{
     background-color: aqua;
     height: 600px;
@@ -16,7 +18,7 @@ header{
     
 }
 
-/* posizionamento all'interno del menu container */
+/* dimensionamento quadrati */
 #logo,
 #login{
     width: 200px;
@@ -36,3 +38,39 @@ header{
     margin:auto;
 }
 
+/* css MAIN */
+
+/* dimensionamento */
+.section{ 
+    
+    background-color: grey;
+}
+.container-main{
+    width: 80%;
+    height: 200px;
+    margin: auto;
+    background-color: blue;
+    display: flex;
+    justify-content: space-between;
+}
+.reverse-section{
+    flex-direction: row-reverse;
+}
+
+.immagine{
+    width: 100%; 
+    height: 200px;
+    background-color: black;
+}
+.testo{
+    width: 100%; 
+    height: 200px;
+    background-color: rgb(244, 215, 0);
+    
+}
+/* sezione finale a colonna*/
+#section-colonna{
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+}
