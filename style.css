@@ -3,3 +3,36 @@
     padding: 0;
     box-sizing: border-box;
 }
+header{
+    background-color: aqua;
+    height: 600px;
+}
+#menu-container-flex{
+    background-color: green; 
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+/* posizionamento all'interno del menu container */
+#logo,
+#login{
+    width: 200px;
+    height: 150px;
+    background-color: red;
+}
+#selection{
+    width: 1000px;
+    height: 150px;
+    background-color: red;
+}
+
+#introduzione{
+    height: 450px;
+    background-color: brown;
+    width: 60%;
+    margin:auto;
+}
+
