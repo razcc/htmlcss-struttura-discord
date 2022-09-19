@@ -41,7 +41,7 @@ header{
 /* css MAIN */
 
 /* dimensionamento */
-.section{ 
+.sezioni{ 
     
     background-color: grey;
 }
@@ -83,13 +83,15 @@ header{
     justify-content: space-between;
     background-color: rgb(2, 104, 70);
 }
+#color{
+    background-color: aqua;
+}
 .border{
     border-top: 5px solid black;
 }
 
-#color{
-    background-color: aqua;
-}
+
+
 .link-utili{
     height: 500px; 
     width: 100%;
